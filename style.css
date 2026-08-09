@@ -394,9 +394,22 @@ p { color: var(--gray); }
 }
 
 .social-icon:hover {
-  border-color: var(--yellow);
-  color: var(--yellow);
   transform: translateY(-2px);
+}
+
+.social-icon-instagram {
+  background: #E1306C;
+  border-color: transparent;
+}
+
+.social-icon-linkedin {
+  background: #0A66C2;
+  border-color: transparent;
+}
+
+.social-icon-instagram:hover,
+.social-icon-linkedin:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
 }
 
 /* Final CTA */
