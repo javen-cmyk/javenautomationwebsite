@@ -366,8 +366,25 @@ p { color: var(--gray); }
   margin-bottom: 1rem;
 }
 
+.founder-tag {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 0.95rem;
+  color: var(--gray);
+  letter-spacing: 0;
+}
+
 .about-text p {
   margin-bottom: 0.9rem;
+}
+
+.about-quote {
+  border-left: 2px solid var(--yellow);
+  padding-left: 1rem;
+  margin: 0.9rem 0 1.2rem;
+  color: var(--gray);
+  font-style: italic;
+  line-height: 1.7;
 }
 
 .social-links {
